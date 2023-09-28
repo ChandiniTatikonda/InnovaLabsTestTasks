@@ -1,0 +1,48 @@
+.pb-12{
+    padding-bottom: 12px;
+}
+.pt-12{
+    padding-top: 12px;
+}
+.mt-13{
+    margin-top: 12px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+body{
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+label{
+    float: left;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #3e3e3e;
+}
+input {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #4D4D4D;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #4d4d4d;
+    padding: 6px 18px;
+}
+input::placeholder, input[type="date"]::placeholder{
+    font-family: 'Open Sans';
+}
+input[type="checkbox"], input[type="checkbox"]:hover{
+    width: 18px;
+    height: 18px;
+    background: #000000 !important;
+    accent-color: #01518A !important;
+    border: 2px solid #000000;
+    border-radius: 3px;
+}

@@ -1,0 +1,30 @@
+{
+    "blocks": [
+      {
+        "token": "personName",
+        "type": "text",
+        "props": {
+          "title": "Enter your name",
+          "required": true,
+          "placeholder": "Ex: Chandini"
+        }
+      },
+      {
+        "token": "personDOB",
+        "type": "date",
+        "props": {
+          "title": "Enter your DOB",
+          "required": true,
+          "placeholder": "Ex: 01/01/2000"
+        }
+      },
+      {
+        "token": "isPersonMinor",
+        "type": "checkbox",
+        "props": {
+          "title": "Is the current person minor?",
+          "default": false
+        }
+      }
+      ]
+  }
